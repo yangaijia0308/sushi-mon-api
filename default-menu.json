@@ -1,0 +1,646 @@
+[
+  {
+    "id": "item-1",
+    "categoryId": "cat-1",
+    "name": { "es": "Nigiri de Salmón", "en": "Salmon Nigiri", "zh": "三文鱼握寿司" },
+    "description": {
+      "es": "Salmón atlántico fresco sobre arroz sazonado formado a mano",
+      "en": "Fresh Atlantic salmon over hand-formed seasoned rice",
+      "zh": "新鲜大西洋三文鱼搭配手工握制调味米饭"
+    },
+    "price": 8,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=single piece of salmon nigiri sushi close-up, vibrant orange fish, white rice, black background, studio lighting, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=single piece of salmon nigiri sushi close-up, vibrant orange fish, white rice, black background, studio lighting, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=single piece of salmon nigiri sushi close-up, vibrant orange fish, white rice, black background, studio lighting, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["fish"],
+    "displayOrder": 1,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-2",
+    "categoryId": "cat-1",
+    "name": { "es": "Nigiri de Atún", "en": "Tuna Nigiri", "zh": "金枪鱼握寿司" },
+    "description": {
+      "es": "Atún bluefin premium, cortado delicadamente y servido sobre arroz",
+      "en": "Premium bluefin tuna, delicately sliced and served over rice",
+      "zh": "顶级蓝鳍金枪鱼，精心切片搭配米饭"
+    },
+    "price": 9,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=premium bluefin tuna nigiri sushi, deep red lean tuna over rice, dark slate plate, moody lighting, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=premium bluefin tuna nigiri sushi, deep red lean tuna over rice, dark slate plate, moody lighting, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=premium bluefin tuna nigiri sushi, deep red lean tuna over rice, dark slate plate, moody lighting, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["fish"],
+    "displayOrder": 2,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-3",
+    "categoryId": "cat-1",
+    "name": { "es": "Nigiri de Cola Amarilla", "en": "Yellowtail Nigiri", "zh": "黄尾鱼握寿司" },
+    "description": {
+      "es": "Cola amarilla mantecosa con un toque de ralladura de yuzu",
+      "en": "Buttery yellowtail with a hint of yuzu zest",
+      "zh": "黄油般细腻的黄尾鱼，点缀柚子皮丝"
+    },
+    "price": 9,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=yellowtail hamachi nigiri sushi, pale pink fish over rice, yuzu garnish, black background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=yellowtail hamachi nigiri sushi, pale pink fish over rice, yuzu garnish, black background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=yellowtail hamachi nigiri sushi, pale pink fish over rice, yuzu garnish, black background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": true,
+    "popular": false,
+    "allergens": ["fish"],
+    "displayOrder": 3,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-4",
+    "categoryId": "cat-1",
+    "name": { "es": "Nigiri de Camarón", "en": "Shrimp Nigiri", "zh": "虾握寿司" },
+    "description": {
+      "es": "Camarón dulce abierto en mariposa sobre arroz sazonado",
+      "en": "Sweet butterflied shrimp over seasoned rice",
+      "zh": "甜嫩蝴蝶虾搭配调味米饭"
+    },
+    "price": 7,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=butterflied shrimp ebi nigiri sushi, pink cooked shrimp, dark plate, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=butterflied shrimp ebi nigiri sushi, pink cooked shrimp, dark plate, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=butterflied shrimp ebi nigiri sushi, pink cooked shrimp, dark plate, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": false,
+    "allergens": ["shellfish"],
+    "displayOrder": 4,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-5",
+    "categoryId": "cat-1",
+    "name": { "es": "Nigiri de Atún Picante", "en": "Spicy Tuna Nigiri", "zh": "辣味金枪鱼握寿司" },
+    "description": {
+      "es": "Atún picante picado con sriracha y chalotas crujientes",
+      "en": "Chopped spicy tuna with sriracha and crispy shallots",
+      "zh": "辣味碎金枪鱼配是拉差酱和酥脆红葱头"
+    },
+    "price": 10,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=spicy tuna nigiri sushi with red sriracha drizzle and crispy shallots, dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=spicy tuna nigiri sushi with red sriracha drizzle and crispy shallots, dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=spicy tuna nigiri sushi with red sriracha drizzle and crispy shallots, dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": true,
+    "isNew": true,
+    "popular": true,
+    "allergens": ["fish"],
+    "displayOrder": 5,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-6",
+    "categoryId": "cat-2",
+    "name": { "es": "Sashimi de Salmón", "en": "Salmon Sashimi", "zh": "三文鱼刺身" },
+    "description": {
+      "es": "8 piezas de salmón atlántico premium, cortado en láminas finas",
+      "en": "8 pieces of premium Atlantic salmon, thinly sliced",
+      "zh": "8片顶级大西洋三文鱼，薄切刺身"
+    },
+    "price": 16,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=salmon sashimi thin slices arranged on black slate plate, shiso leaf garnish, dark moody lighting, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=salmon sashimi thin slices arranged on black slate plate, shiso leaf garnish, dark moody lighting, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=salmon sashimi thin slices arranged on black slate plate, shiso leaf garnish, dark moody lighting, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["fish"],
+    "displayOrder": 1,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-7",
+    "categoryId": "cat-2",
+    "name": { "es": "Sashimi de Atún", "en": "Tuna Sashimi", "zh": "金枪鱼刺身" },
+    "description": {
+      "es": "8 piezas de atún bluefin, textura que se deshace en la boca",
+      "en": "8 pieces of bluefin tuna, melt-in-your-mouth texture",
+      "zh": "8片蓝鳍金枪鱼，入口即化的口感"
+    },
+    "price": 18,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bluefin tuna sashimi slices on ice, deep red color, wasabi and pickled ginger, dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bluefin tuna sashimi slices on ice, deep red color, wasabi and pickled ginger, dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bluefin tuna sashimi slices on ice, deep red color, wasabi and pickled ginger, dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["fish"],
+    "displayOrder": 2,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-8",
+    "categoryId": "cat-2",
+    "name": { "es": "Sashimi Variado", "en": "Assorted Sashimi", "zh": "综合刺身" },
+    "description": {
+      "es": "Selección del chef de 12 piezas con la pesca más fresca",
+      "en": "Chef's selection of 12 pieces featuring the freshest catch",
+      "zh": "主厨精选12片最新鲜的刺身拼盘"
+    },
+    "price": 28,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=assorted sashimi platter with salmon tuna yellowtail and shrimp on crushed ice, elegant presentation, dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=assorted sashimi platter with salmon tuna yellowtail and shrimp on crushed ice, elegant presentation, dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=assorted sashimi platter with salmon tuna yellowtail and shrimp on crushed ice, elegant presentation, dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["fish", "shellfish"],
+    "displayOrder": 3,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-9",
+    "categoryId": "cat-2",
+    "name": { "es": "Sashimi de Cola Amarilla", "en": "Yellowtail Sashimi", "zh": "黄尾鱼刺身" },
+    "description": {
+      "es": "8 piezas de cola amarilla rica y mantecosa",
+      "en": "8 pieces of rich, buttery yellowtail",
+      "zh": "8片丰腴细腻的黄尾鱼刺身"
+    },
+    "price": 17,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=yellowtail hamachi sashimi slices on dark ceramic plate, ponzu sauce, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=yellowtail hamachi sashimi slices on dark ceramic plate, ponzu sauce, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=yellowtail hamachi sashimi slices on dark ceramic plate, ponzu sauce, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": false,
+    "allergens": ["fish"],
+    "displayOrder": 4,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-10",
+    "categoryId": "cat-3",
+    "name": { "es": "Roll Dragón", "en": "Dragon Roll", "zh": "龙卷" },
+    "description": {
+      "es": "Tempura de camarón por dentro, cubierto con aguacate y salsa de anguila",
+      "en": "Shrimp tempura inside, topped with avocado and eel sauce",
+      "zh": "内裹虾天妇罗，外铺牛油果搭配鳗鱼汁"
+    },
+    "price": 18,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=dragon roll sushi topped with sliced avocado resembling dragon scales, eel sauce drizzle, black plate, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=dragon roll sushi topped with sliced avocado resembling dragon scales, eel sauce drizzle, black plate, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=dragon roll sushi topped with sliced avocado resembling dragon scales, eel sauce drizzle, black plate, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["fish", "shellfish"],
+    "displayOrder": 1,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-11",
+    "categoryId": "cat-3",
+    "name": { "es": "Roll Arcoíris", "en": "Rainbow Roll", "zh": "彩虹卷" },
+    "description": {
+      "es": "Roll California cubierto con sashimi variado y aguacate",
+      "en": "California roll topped with assorted sashimi and avocado",
+      "zh": "加州卷外铺综合刺身和牛油果"
+    },
+    "price": 20,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=rainbow roll sushi with colorful assorted fish on top, vibrant colors, dark plate, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=rainbow roll sushi with colorful assorted fish on top, vibrant colors, dark plate, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=rainbow roll sushi with colorful assorted fish on top, vibrant colors, dark plate, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["fish", "shellfish"],
+    "displayOrder": 2,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-12",
+    "categoryId": "cat-3",
+    "name": { "es": "Roll de Atún Picante", "en": "Spicy Tuna Roll", "zh": "辣味金枪鱼卷" },
+    "description": {
+      "es": "Atún picante picado con pepino y mayonesa sriracha",
+      "en": "Spicy chopped tuna with cucumber and sriracha mayo",
+      "zh": "辣味碎金枪鱼配黄瓜和是拉差蛋黄酱"
+    },
+    "price": 14,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=spicy tuna roll sushi cut pieces with red sriracha mayo drizzle, dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=spicy tuna roll sushi cut pieces with red sriracha mayo drizzle, dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=spicy tuna roll sushi cut pieces with red sriracha mayo drizzle, dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": true,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["fish"],
+    "displayOrder": 3,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-13",
+    "categoryId": "cat-3",
+    "name": { "es": "Roll Mon", "en": "Mon Roll", "zh": "招牌卷" },
+    "description": {
+      "es": "Nuestra firma: langosta, mango, aceite de trufa y hoja de oro",
+      "en": "Our signature: lobster, mango, truffle oil, gold leaf",
+      "zh": "招牌之作：龙虾、芒果、松露油、金箔"
+    },
+    "price": 26,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=luxury sushi roll with lobster mango truffle oil and gold leaf, black plate, fine dining presentation, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=luxury sushi roll with lobster mango truffle oil and gold leaf, black plate, fine dining presentation, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=luxury sushi roll with lobster mango truffle oil and gold leaf, black plate, fine dining presentation, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": true,
+    "popular": true,
+    "allergens": ["shellfish"],
+    "displayOrder": 4,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-14",
+    "categoryId": "cat-3",
+    "name": { "es": "Roll Filadelfia", "en": "Philadelphia Roll", "zh": "费城卷" },
+    "description": {
+      "es": "Salmón ahumado, queso crema y pepino",
+      "en": "Smoked salmon, cream cheese, and cucumber",
+      "zh": "烟熏三文鱼、奶油芝士和黄瓜"
+    },
+    "price": 13,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=philadelphia roll sushi with smoked salmon and cream cheese, dark slate plate, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=philadelphia roll sushi with smoked salmon and cream cheese, dark slate plate, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=philadelphia roll sushi with smoked salmon and cream cheese, dark slate plate, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": false,
+    "allergens": ["fish", "dairy"],
+    "displayOrder": 5,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-15",
+    "categoryId": "cat-4",
+    "name": { "es": "Edamame", "en": "Edamame", "zh": "毛豆" },
+    "description": {
+      "es": "Soja al vapor con sal marina",
+      "en": "Steamed soybeans tossed with sea salt",
+      "zh": "蒸毛豆拌海盐"
+    },
+    "price": 6,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bowl of steamed edamame with sea salt, dark ceramic bowl, minimalist dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bowl of steamed edamame with sea salt, dark ceramic bowl, minimalist dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bowl of steamed edamame with sea salt, dark ceramic bowl, minimalist dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["soy"],
+    "displayOrder": 1,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-16",
+    "categoryId": "cat-4",
+    "name": { "es": "Gyoza", "en": "Gyoza", "zh": "煎饺" },
+    "description": {
+      "es": "Dumplings de cerdo fritos con salsa para mojar",
+      "en": "Pan-fried pork dumplings with dipping sauce",
+      "zh": "煎猪肉饺子配蘸酱"
+    },
+    "price": 10,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=crispy pan-fried gyoza dumplings on black plate with dipping sauce, dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=crispy pan-fried gyoza dumplings on black plate with dipping sauce, dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=crispy pan-fried gyoza dumplings on black plate with dipping sauce, dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["gluten", "soy"],
+    "displayOrder": 2,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-17",
+    "categoryId": "cat-4",
+    "name": { "es": "Takoyaki", "en": "Takoyaki", "zh": "章鱼烧" },
+    "description": {
+      "es": "Bolas crujientes de pulpo con escamas de bonito y salsa takoyaki",
+      "en": "Crispy octopus balls with bonito flakes and takoyaki sauce",
+      "zh": "酥脆章鱼烧配木鱼花和章鱼烧酱汁"
+    },
+    "price": 9,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=takoyaki octopus balls with bonito flakes and sauce, dark plate, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=takoyaki octopus balls with bonito flakes and sauce, dark plate, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=takoyaki octopus balls with bonito flakes and sauce, dark plate, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": true,
+    "popular": false,
+    "allergens": ["fish", "gluten", "soy"],
+    "displayOrder": 3,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-18",
+    "categoryId": "cat-4",
+    "name": { "es": "Tempura Variada", "en": "Tempura Platter", "zh": "天妇罗拼盘" },
+    "description": {
+      "es": "Tempura de camarón y verduras con rebozado ligero",
+      "en": "Lightly battered shrimp and vegetable tempura",
+      "zh": "轻裹薄浆的虾和蔬菜天妇罗"
+    },
+    "price": 14,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=tempura platter with shrimp and vegetables, crispy golden batter, tentsuyu dipping sauce, dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=tempura platter with shrimp and vegetables, crispy golden batter, tentsuyu dipping sauce, dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=tempura platter with shrimp and vegetables, crispy golden batter, tentsuyu dipping sauce, dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["shellfish", "gluten"],
+    "displayOrder": 4,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-19",
+    "categoryId": "cat-4",
+    "name": { "es": "Sopa de Miso", "en": "Miso Soup", "zh": "味噌汤" },
+    "description": {
+      "es": "Caldo de miso tradicional con tofu, algas y cebolleta",
+      "en": "Traditional miso broth with tofu, seaweed, and scallions",
+      "zh": "传统味噌汤配豆腐、海藻和葱花"
+    },
+    "price": 5,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=steaming bowl of miso soup with tofu and seaweed, dark ceramic bowl, moody lighting, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=steaming bowl of miso soup with tofu and seaweed, dark ceramic bowl, moody lighting, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=steaming bowl of miso soup with tofu and seaweed, dark ceramic bowl, moody lighting, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": false,
+    "allergens": ["soy"],
+    "displayOrder": 5,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-20",
+    "categoryId": "cat-5",
+    "name": { "es": "Sake Caliente", "en": "Hot Sake", "zh": "热清酒" },
+    "description": {
+      "es": "Sake Junmai premium servido caliente en tokkuri tradicional",
+      "en": "Premium Junmai sake served warm in traditional tokkuri",
+      "zh": "顶级纯米酒，以传统德利壶温热奉上"
+    },
+    "price": 12,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=hot sake in ceramic tokkuri with ochoko cup on dark stone surface, steam rising, warm lighting, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=hot sake in ceramic tokkuri with ochoko cup on dark stone surface, steam rising, warm lighting, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=hot sake in ceramic tokkuri with ochoko cup on dark stone surface, steam rising, warm lighting, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": [],
+    "displayOrder": 1,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-21",
+    "categoryId": "cat-5",
+    "name": { "es": "Cerveza Asahi", "en": "Asahi Draft", "zh": "朝日生啤" },
+    "description": {
+      "es": "Lager japonesa crujiente, servida bien fría",
+      "en": "Crisp Japanese lager, served ice cold",
+      "zh": "清爽日式拉格啤酒，冰镇奉上"
+    },
+    "price": 8,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Asahi beer in tall glass with condensation, dark moody background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Asahi beer in tall glass with condensation, dark moody background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Asahi beer in tall glass with condensation, dark moody background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["gluten"],
+    "displayOrder": 2,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-22",
+    "categoryId": "cat-5",
+    "name": { "es": "Latte de Matcha", "en": "Matcha Latte", "zh": "抹茶拿铁" },
+    "description": {
+      "es": "Matcha de grado ceremonial con leche de avena al vapor",
+      "en": "Ceremonial grade matcha with steamed oat milk",
+      "zh": "仪式级抹茶配热燕麦奶"
+    },
+    "price": 6,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=matcha latte in dark ceramic cup with latte art, green tea foam, dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=matcha latte in dark ceramic cup with latte art, green tea foam, dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=matcha latte in dark ceramic cup with latte art, green tea foam, dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": true,
+    "popular": false,
+    "allergens": [],
+    "displayOrder": 3,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-23",
+    "categoryId": "cat-5",
+    "name": { "es": "Vino de Ciruela", "en": "Plum Wine", "zh": "梅酒" },
+    "description": {
+      "es": "Umeshu dulce y ácido, servido frío",
+      "en": "Sweet and tangy Umeshu, served chilled",
+      "zh": "酸甜梅酒，冰镇奉上"
+    },
+    "price": 10,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=umeshu plum wine in elegant glass with ice, amber color, dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=umeshu plum wine in elegant glass with ice, amber color, dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=umeshu plum wine in elegant glass with ice, amber color, dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": false,
+    "allergens": [],
+    "displayOrder": 4,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-24",
+    "categoryId": "cat-5",
+    "name": { "es": "Refresco Ramune", "en": "Ramune Soda", "zh": "波子汽水" },
+    "description": {
+      "es": "Refresco japonés clásico con canica en botella icónica",
+      "en": "Classic Japanese marble soda in iconic bottle",
+      "zh": "经典日式波子汽水，标志性弹珠瓶装"
+    },
+    "price": 4,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Ramune Japanese marble soda bottle with blue cap, dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Ramune Japanese marble soda bottle with blue cap, dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Ramune Japanese marble soda bottle with blue cap, dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": false,
+    "allergens": [],
+    "displayOrder": 5,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-25",
+    "categoryId": "cat-6",
+    "name": { "es": "Mochi de Matcha", "en": "Matcha Mochi", "zh": "抹茶麻薯" },
+    "description": {
+      "es": "Mochi suave relleno de helado de matcha premium",
+      "en": "Soft mochi filled with premium matcha ice cream",
+      "zh": "软糯麻薯内裹顶级抹茶冰淇淋"
+    },
+    "price": 8,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=matcha mochi ice cream pieces on dark plate, green dusted, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=matcha mochi ice cream pieces on dark plate, green dusted, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=matcha mochi ice cream pieces on dark plate, green dusted, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["dairy", "soy"],
+    "displayOrder": 1,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-26",
+    "categoryId": "cat-6",
+    "name": { "es": "Helado Tempura", "en": "Tempura Ice Cream", "zh": "炸冰淇淋" },
+    "description": {
+      "es": "Helado de té verde frito con capa crujiente",
+      "en": "Deep-fried green tea ice cream with crispy shell",
+      "zh": "炸抹茶冰淇淋，外酥内软"
+    },
+    "price": 9,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=tempura fried ice cream with crispy golden shell, matcha ice cream inside, dark plate, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=tempura fried ice cream with crispy golden shell, matcha ice cream inside, dark plate, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=tempura fried ice cream with crispy golden shell, matcha ice cream inside, dark plate, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": true,
+    "allergens": ["dairy", "gluten"],
+    "displayOrder": 2,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-27",
+    "categoryId": "cat-6",
+    "name": { "es": "Dorayaki", "en": "Dorayaki", "zh": "铜锣烧" },
+    "description": {
+      "es": "Sándwich de panqueque esponjoso con pasta dulce de judía roja",
+      "en": "Fluffy pancake sandwich with sweet red bean paste",
+      "zh": "松软铜锣烧夹甜蜜红豆沙"
+    },
+    "price": 7,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=dorayaki Japanese pancake with red bean filling, dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=dorayaki Japanese pancake with red bean filling, dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=dorayaki Japanese pancake with red bean filling, dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": true,
+    "popular": false,
+    "allergens": ["gluten", "soy"],
+    "displayOrder": 3,
+    "available": true,
+    "stock": 99
+  },
+  {
+    "id": "item-28",
+    "categoryId": "cat-6",
+    "name": { "es": "Sorbete de Yuzu", "en": "Yuzu Sorbet", "zh": "柚子雪芭" },
+    "description": {
+      "es": "Sorbete de cítricos refrescante elaborado con yuzu japonés",
+      "en": "Refreshing citrus sorbet made with Japanese yuzu",
+      "zh": "清爽柚子雪芭，以日本柚子制成"
+    },
+    "price": 7,
+    "image": {
+      "es": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=yuzu sorbet in elegant dark bowl, citrus garnish, dark background, food photography&image_size=landscape_4_3",
+      "en": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=yuzu sorbet in elegant dark bowl, citrus garnish, dark background, food photography&image_size=landscape_4_3",
+      "zh": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=yuzu sorbet in elegant dark bowl, citrus garnish, dark background, food photography&image_size=landscape_4_3"
+    },
+    "spicy": false,
+    "isNew": false,
+    "popular": false,
+    "allergens": [],
+    "displayOrder": 4,
+    "available": true,
+    "stock": 99
+  }
+]
